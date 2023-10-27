@@ -1,0 +1,199 @@
+/* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    color: #393d41;
+    text-align: center;
+}
+
+#title {
+    background-image: url("/Esercizio/assets/images/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#title p {
+    font-size: 4.5vw;
+    padding: 0px 40px 30px;
+    font-weight: 100;
+}
+
+.contentoff {
+
+    padding: 50px 0px 50px;
+    display: block;
+    font-size: 0.8em;
+}
+
+.contentoff div {
+    padding: 20px; 
+}
+
+.contentoff p {
+    padding: 16px 0px 0px 0px;
+}
+
+.contentoff img {
+
+    border-radius: 450px;
+    padding: 20px 10px 0px 10px;
+    width: 80%;
+}
+
+.offers {
+    font-size: 1.3em;
+}
+
+header {
+    background-color: black;
+}
+
+header img {
+    width: 30%;
+    padding: 20px 0px 30px;
+    
+}
+
+h1 {
+    font-size: 7.8vw;
+    padding: 40px 70px 15px;
+}
+
+h1, h3 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    color: #25a2c3;
+}
+
+footer {
+    background-color: #25a2c3;
+    color: white;
+    padding: 20px;
+}
+
+footer h2 {
+    font-weight: bold;
+    font-size: 1.4em;
+    padding-bottom: 12px;
+}
+
+footer a {
+    color: #b6edfc;
+}
+
+footer p {
+
+    font-size: 0.7em;
+    color: #b6edfc;
+    border-top: 1px solid white;
+    margin: 20px 100px;
+    padding: 30px 10px 20px;
+
+}
+
+ion-icon {
+
+    color: white
+
+}
+
+footer ul {
+    list-style: none;
+    color:#b6edfc;
+    font-size: 0.9em;    
+
+}
+
+#bannerred {
+    background-color: #e22d0e;
+    color: white;
+    padding: 30px 0px;
+
+}
+
+#bannerred p:first-of-type {
+    font-style: italic;
+    font-size: 0.8em;
+    padding: 0px 60px;
+}
+
+#bannerred p:nth-last-child(2) {
+
+    font-size: 0.9em;
+    padding: 20px 0px 0px;
+}
+
+ #bannerred p:last-child {
+
+    font-size: 0.6em;
+    padding-bottom: 20px;
+ }
+
+#bannerred h2 {
+
+    padding: 20px 0px;
+    font-size: 1.8em;
+}
+
+.blockcards {
+
+    padding: 60px 30px;
+}
+
+.schede {
+
+    border: #dee1e3 solid 1px;
+    margin-bottom: 20px;
+    font-style: normal;
+    padding: 0px;
+    border-radius: 4px;
+}
+
+.schede div {
+
+    padding: 20px;
+}
+
+.schede h3 {
+    font-size: 0.9em;
+}
+
+.schede p {
+    padding-top: 10px;
+    font-size: 0.8em;
+}
+
+.guarantees div img {
+    width: 100%;
+}
+
+.guarantees h2 {
+    font-weight: bold;
+}
+
+#button a {
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color:white;
+    border-radius: 7px 7px 7px 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 14px 30px 14px;
+    display: inline-block;
+    font-size: 3vw;
+}
+
+#button {
+    padding: 20px 20px 30px 20px;
+}
+
